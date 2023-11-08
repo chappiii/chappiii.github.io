@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-left {
+  float: left;
+}
+.nav-right {
+  float: right;
+}
+.nav-item {
+  padding: 0 10px;
+}
+.nav-dropdown {
+  background-color: #dce6e8;
+  position: absolute;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* .nav-link {
+      font-size: large;
+      
+    }
+     */

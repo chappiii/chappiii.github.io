@@ -50,19 +50,19 @@ function NavBar() {
 
           <li className="md:ml-8 text-xl md:my-0 my-7 flex items-center">
             <a
-              href={"/project"}
+              href={"/about"}
               className="text-lime-600 hover:text-black duration-500 flex items-center gap-2"
             >
-              <AiOutlineFundProjectionScreen /> <span>Projects</span>
+              <AiOutlineUser /> <span>About</span>
             </a>
           </li>
 
           <li className="md:ml-8 text-xl md:my-0 my-7 flex items-center">
             <a
-              href={"/about"}
+              href={"/project"}
               className="text-lime-600 hover:text-black duration-500 flex items-center gap-2"
             >
-              <AiOutlineUser /> <span>About</span>
+              <AiOutlineFundProjectionScreen /> <span>Projects</span>
             </a>
           </li>
 

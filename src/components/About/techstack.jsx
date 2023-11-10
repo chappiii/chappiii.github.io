@@ -13,6 +13,7 @@ import {
   SiTensorflow,
   SiDocker,
   SiDjango,
+  SiVite,
 } from "react-icons/si";
 
 function Techstack() {
@@ -52,6 +53,9 @@ function Techstack() {
         <div className="col-span-5 flex justify-center">
           <div className="m-2 p-4 border border-white rounded tech-icons">
             <SiDjango className="text-7xl" />
+          </div>
+          <div className="m-2 p-4 border border-white rounded tech-icons">
+            <SiVite className="text-7xl" />
           </div>
           <div className="m-2 p-4 border border-white rounded tech-icons">
             <SiDocker className="text-7xl" />

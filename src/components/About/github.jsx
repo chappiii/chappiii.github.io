@@ -10,7 +10,6 @@ function Github() {
         username="chappiii"
         blockSize={15}
         blockMargin={5}
-        // color="#709df0"
         fontSize={16}
       />
     </div>

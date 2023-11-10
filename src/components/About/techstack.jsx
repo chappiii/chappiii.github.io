@@ -12,6 +12,7 @@ import {
   SiMysql,
   SiTensorflow,
   SiDocker,
+  SiDjango,
 } from "react-icons/si";
 
 function Techstack() {
@@ -49,6 +50,9 @@ function Techstack() {
           <SiMysql className="text-7xl" />
         </div>
         <div className="col-span-5 flex justify-center">
+          <div className="m-2 p-4 border border-white rounded tech-icons">
+            <SiDjango className="text-7xl" />
+          </div>
           <div className="m-2 p-4 border border-white rounded tech-icons">
             <SiDocker className="text-7xl" />
           </div>

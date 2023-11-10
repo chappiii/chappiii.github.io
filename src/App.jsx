@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
+import Projects from "./components/Projects/projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/Resume";
 import {
@@ -29,7 +29,10 @@ function App() {
   return (
     <Router>
       {/* <Preloader load={load} /> */}
-      <div className="text-center" id={load ? "no-scroll" : "scroll"}>
+      <div
+        className="bg-slate-950 bg-cover min-h-screen text-center"
+        id={load ? "no-scroll" : "scroll"}
+      >
         <Navbar />
         {/* <ScrollToTop /> */}
         <Routes>

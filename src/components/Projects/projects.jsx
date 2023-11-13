@@ -1,5 +1,6 @@
 import { useMediaQuery } from "react-responsive";
 import me from "../../assets/me.jpg";
+import axum from "../../assets/axum.png";
 import ProjectCards from "./projectcards";
 
 function Projects() {
@@ -16,16 +17,15 @@ function Projects() {
               <h1 className="text-3xl pb-3">
                 My Recent <strong className="text-lime-600">Works </strong>
               </h1>
-              Here are a few projects I have worked on recently.
-              <p></p>
+              <p>Here are a few projects I have worked on recently.</p>
             </div>
             <div className="flex items-center justify-center">
               <div className="grid grid-cols-3 gap-6">
-                <div className="mb-4">
+                <div className="mb-4 ">
                   <ProjectCards
-                    imgPath={me}
+                    imgPath={axum}
                     title="exit"
-                    description="The biggest Ethiopian Tech News Platform"
+                    description="movie streaming webapp"
                     demoLink="https://googel.com/"
                   />
                 </div>
@@ -33,8 +33,8 @@ function Projects() {
                 <div className="">
                   <ProjectCards
                     imgPath={me}
-                    title="Axum"
-                    description="movie streaming webapp"
+                    title="v25 qrcode scanner"
+                    description="The biggest Ethiopian Tech News Platform"
                     demoLink="https://googel.com/"
                   />
                 </div>
@@ -52,8 +52,8 @@ function Projects() {
                   <div className="">
                     <ProjectCards
                       imgPath={me}
-                      title="test"
-                      description="The biggest Ethiopian Tech News Platform"
+                      title="Axum"
+                      description="movie streaming webapp"
                       demoLink="https://googel.com/"
                     />
                   </div>
@@ -63,7 +63,48 @@ function Projects() {
           </div>
         </>
       ) : (
-        <div></div>
+        <>
+          <div className="text-white pt-36 pb-10">
+            <h1 className="text-3xl pb-3">
+              My Recent <strong className="text-lime-600">Works </strong>
+            </h1>
+            <p>Here are a few projects I have worked on recently.</p>
+          </div>
+          <div className="flex mb-10 justify-center mx-auto">
+            <ProjectCards
+              imgPath={me}
+              title="Axum"
+              description="movie streaming webapp"
+              demoLink="https://googel.com/"
+            />
+          </div>
+          <div className="flex mb-10 justify-center mx-auto">
+            <ProjectCards
+              imgPath={me}
+              title="Axum"
+              description="movie streaming webapp"
+              demoLink="https://googel.com/"
+            />
+          </div>
+
+          <div className="flex mb-10 justify-center mx-auto">
+            <ProjectCards
+              imgPath={me}
+              title="Axum"
+              description="movie streaming webapp"
+              demoLink="https://googel.com/"
+            />
+          </div>
+
+          <div className="flex mb-10 justify-center mx-auto">
+            <ProjectCards
+              imgPath={axum}
+              title="Axum"
+              description="movie streaming webapp"
+              demoLink="https://googel.com/"
+            />
+          </div>
+        </>
       )}
     </>
   );

@@ -1,5 +1,7 @@
 import { useMediaQuery } from "react-responsive";
-import me from "../../assets/me.jpg";
+import me2 from "../../assets/me2.jpg";
+// import me from "../../assets/me.jpg";
+import Type from "./type";
 
 function Home() {
   const isDesktopOrLaptop = useMediaQuery({
@@ -9,73 +11,90 @@ function Home() {
     <>
       {isDesktopOrLaptop ? (
         <div className="font-barlow bg-slate-950 bg-left-top bg-cover h-fit w-full">
-          <div className="flex flex-col pb-12 pt-36">
+          <div className="flex flex-col pb-12 pt-44">
             <div className="flex">
-              <div className=" justify-center w-[70%] pt-10">
-                <h1 className="text-white text-6xl pb-6">
-                  <span className="text-green">hello</span> hello
+              <div className=" text-white w-[60%] pt-10">
+                <h1 className=" text-4xl pb-6">
+                  Hello! <span>👋🏻</span>
                 </h1>
-                <p className="text-white text-3xl w-[90%] pl-12">hello</p>
-                <div className="flex items-center grid-cols-3 gap-5 mt-8 pl-12"></div>
+                <h1 className="text-4xl pb-6">
+                  I am
+                  <strong className="text-lime-600"> Kidus Mikael</strong>
+                </h1>
+                <div className="text-4xl text-lime-600">
+                  <Type />
+                </div>
               </div>
 
               <div className="w-[20%]">
-                <img src={me} alt="" />
+                <img src={me2} className="rounded-full" alt="me" />
               </div>
             </div>
           </div>
 
-          <div className="flex flex-col pb-12 pt-36">
-            <div className="flex">
-              <div className=" justify-center w-[70%] pt-10">
-                <h1 className="text-white text-6xl pb-6">
-                  <span className="text-green">hello</span> hello
-                </h1>
-                <p className="text-white text-3xl w-[90%] pl-12">hello</p>
-                <div className="flex items-center grid-cols-3 gap-5 mt-8 pl-12"></div>
-              </div>
-
-              <div className="w-[20%]">
-                <img src={me} alt="" />
-              </div>
+          <div className="w-full pb-12 pt-36 flex justify-center">
+            <div className="w-[80%] pt-10">
+              <h1 className="text-white text-4xl pb-6">
+                <span className="text-lime-600">Somethings</span> you should
+                Know about me
+              </h1>
+              <p className="text-white text-2xl mx-10 text-justify">
+                I'm in love with the process of learning and figuring things
+                out. Tech enthusiast!!! <br />
+                <br />
+                I started my programming journey In my third year of studying
+                computer engineering with C++. Then continued to learn python
+                eventually As my interest in web development grew mastered
+                JavaScript. <br />
+                <br />
+                My learning journey underwent a significant shift during my
+                internship at NID, where I had the privilege of learning from
+                some of the best in the field. <br />
+                <br />
+                I'm highly interested in Machine Learning and Computer vision.
+                Want to continue my learning journey and figure more things out
+              </p>
             </div>
           </div>
         </div>
       ) : (
-        <div className="font-barlow bg-slate-950 bg-left-top bg-cover h-fit w-full">
-          {/* Use flex-col for mobile and md:flex-row for larger screens */}
-          <div className="flex flex-col items-center pb-12 pt-36 md:flex-row md:items-start">
-            {/* Center the content for mobile and use w-full, and adjust for larger screens */}
-            <div className="flex flex-col items-center justify-center w-full pt-10 md:w-[70%] md:items-start md:justify-start">
-              <h1 className="text-white text-6xl text-center pb-6 md:text-left">
-                <span className="text-green">hello</span> hello
-              </h1>
-              {/* Center the text for mobile and adjust padding for larger screens */}
-              <p className="text-white text-3xl w-[90%] md:pl-12">hello</p>
-              {/* Ensure the div is centered for mobile */}
-              <div className="flex items-center justify-center w-full grid-cols-3 gap-5 mt-8 md:pl-12"></div>
-            </div>
-
-            {/* Image container - Make it take full width on mobile and adjust size for larger screens */}
-            <div className="w-full pb-12 md:w-[20%] md:pb-0">
-              <img src={me} alt="" className="mx-auto" />{" "}
-              {/* Center the image */}
+        <div>
+          <div className=" text-white pt-56 mb-10">
+            <h1 className=" text-4xl pb-6">
+              Hello! <span>👋🏻</span>
+            </h1>
+            <h1 className="text-4xl pb-6">
+              I am
+              <strong className="text-lime-600"> Kidus Mikael</strong>
+            </h1>
+            <div className="text-2xl text-lime-600">
+              <Type />
             </div>
           </div>
-
-          {/* Repeat the same structure for any other similar sections */}
-          <div className="flex flex-col items-center pb-12 pt-36 md:flex-row md:items-start">
-            <div className="flex flex-col items-center justify-center w-full pt-10 md:w-[70%] md:items-start md:justify-start">
-              <h1 className="text-white text-6xl text-center pb-6 md:text-left">
-                <span className="text-green">hello</span> hello
-              </h1>
-              <p className="text-white text-3xl w-[90%] md:pl-12">hello</p>
-              <div className="flex items-center justify-center w-full grid-cols-3 gap-5 mt-8 md:pl-12"></div>
-            </div>
-
-            <div className="w-full pb-12 md:w-[20%] md:pb-0">
-              <img src={me} alt="" className="mx-auto" />
-            </div>
+          <div className="w-[50%] flex mx-auto mb-28">
+            <img src={me2} className="rounded-full" alt="me" />
+          </div>
+          <div className="pb-10">
+            <h1 className="text-white mx-10 text-4xl pb-6">
+              <span className="text-lime-600">Somethings</span> you should Know
+              about me
+            </h1>
+            <p className="text-white text-xl mx-8 text-left">
+              I'm in love with the process of learning and figuring things out.
+              Tech enthusiast!!! <br />
+              <br />
+              I started my programming journey In my third year of studying
+              computer engineering with C++. Then continued to learn python
+              eventually As my interest in web development grew mastered
+              JavaScript. <br />
+              <br />
+              My learning journey underwent a significant shift during my
+              internship at NID, where I had the privilege of learning from some
+              of the best in the field. <br />
+              <br />
+              I'm highly interested in Machine Learning and Computer vision.
+              Want to continue my learning journey and figure more things out
+            </p>
           </div>
         </div>
       )}

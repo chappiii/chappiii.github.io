@@ -1,8 +1,10 @@
 import { useMediaQuery } from "react-responsive";
 import me from "../../assets/me.jpg";
+import me2 from "../../assets/me2.jpg";
 import Techstack from "./techstack";
 import Toolstack from "./toolstack";
 import Github from "./github";
+import { ImPointRight } from "react-icons/im";
 
 function About() {
   const isDesktopOrLaptop = useMediaQuery({
@@ -13,19 +15,23 @@ function About() {
       {isDesktopOrLaptop ? (
         <>
           <div className="font-barlow bg-slate-950 bg-left-top bg-cover h-fit w-full">
-            <div className="flex flex-col pb-12 pt-36">
-              <div className="flex">
-                <div className=" justify-center w-[70%] pt-10">
-                  <h1 className="text-white text-6xl pb-6">
-                    <span className="text-green">hello</span> hello
-                  </h1>
-                  <p className="text-white text-3xl w-[90%] pl-12">hello</p>
-                  <div className="flex items-center grid-cols-3 gap-5 mt-8 pl-12"></div>
-                </div>
-
-                <div className="w-[20%]">
-                  <img src={me} alt="" />
-                </div>
+            <div className="w-full pb-12 pt-36 flex justify-center">
+              <div className="w-[80%] pt-10">
+                <h1 className="text-white text-4xl pb-6">
+                  A little about me <span className="text-lime-600">ME</span>
+                </h1>
+                <p className="text-white text-2xl mb-5 mx-10 text-justify">
+                  Hello there <span className="text-lime-600">Kidus</span>
+                  here. Born in Addis Ababa and raised in Dire Dawa, Ethiopia.
+                  I'm an Electrical and computer engineering senior year student
+                  at Mekelle/Dire Dawa University. <br />
+                  <br />
+                  Apart from coding, what do I enjoy?
+                  <br /> <br /> 👉🏾 Playing basketball
+                  <br />
+                  👉🏾 gaming <br />
+                  👉🏾 reading books <br /> 👉🏾 traveling
+                </p>
               </div>
             </div>
           </div>
@@ -41,42 +47,35 @@ function About() {
           <Github />
         </>
       ) : (
-        <div className="font-barlow bg-slate-950 bg-left-top bg-cover h-fit w-full">
-          {/* Use flex-col for mobile and md:flex-row for larger screens */}
-          <div className="flex flex-col items-center pb-12 pt-36 md:flex-row md:items-start">
-            {/* Center the content for mobile and use w-full, and adjust for larger screens */}
-            <div className="flex flex-col items-center justify-center w-full pt-10 md:w-[70%] md:items-start md:justify-start">
-              <h1 className="text-white text-6xl text-center pb-6 md:text-left">
-                <span className="text-green">hello</span> hello
-              </h1>
-              {/* Center the text for mobile and adjust padding for larger screens */}
-              <p className="text-white text-3xl w-[90%] md:pl-12">hello</p>
-              {/* Ensure the div is centered for mobile */}
-              <div className="flex items-center justify-center w-full grid-cols-3 gap-5 mt-8 md:pl-12"></div>
-            </div>
-
-            {/* Image container - Make it take full width on mobile and adjust size for larger screens */}
-            <div className="w-full pb-12 md:w-[20%] md:pb-0">
-              <img src={me} alt="" className="mx-auto" />{" "}
-              {/* Center the image */}
-            </div>
+        <>
+          <h1 className="text-white text-3xl pt-36 pb-3">
+            A little about me <span className="text-lime-600">ME</span>
+          </h1>
+          <p className="text-white text-2xl mb-10 mx-12 text-left">
+            Hello there <span className="text-lime-600">Kidus</span> here. Born
+            in Addis Ababa and raised in Dire Dawa, Ethiopia. I'm an Electrical
+            and computer engineering senior year student at Mekelle/Dire Dawa
+            University. <br />
+            <br />
+            Apart from coding, what do I enjoy?
+            <br /> <br /> 👉🏾 Playing basketball
+            <br />
+            👉🏾 gaming <br />
+            👉🏾 reading books <br /> 👉🏾 traveling
+          </p>
+          <h1 className="bg-slate-950 text-white text-3xl pb-5">
+            Professional <span className="text-lime-600">Skillset</span>
+          </h1>
+          <div className="">
+            <Techstack />
           </div>
-
-          {/* Repeat the same structure for any other similar sections */}
-          <div className="flex flex-col items-center pb-12 pt-36 md:flex-row md:items-start">
-            <div className="flex flex-col items-center justify-center w-full pt-10 md:w-[70%] md:items-start md:justify-start">
-              <h1 className="text-white text-6xl text-center pb-6 md:text-left">
-                <span className="text-green">hello</span> hello
-              </h1>
-              <p className="text-white text-3xl w-[90%] md:pl-12">hello</p>
-              <div className="flex items-center justify-center w-full grid-cols-3 gap-5 mt-8 md:pl-12"></div>
-            </div>
-
-            <div className="w-full pb-12 md:w-[20%] md:pb-0">
-              <img src={me} alt="" className="mx-auto" />
-            </div>
-          </div>
-        </div>
+          <h1 className="bg-slate-950 text-white text-3xl pb-5">
+            {" "}
+            <span className="text-lime-600">Tools</span> I use
+          </h1>
+          <Toolstack />
+          <Github />
+        </>
       )}
     </>
   );

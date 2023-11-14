@@ -21,7 +21,7 @@ function NavBar() {
       text-gray-800"
         >
           <span className="text-3xl text-lime-800 mr-1 pt-2">
-            <a href={"/chappiii.github.io"}>
+            <a href={"/"}>
               <img src={logo} alt="logo" className="w-14" />
             </a>
           </span>
@@ -41,7 +41,7 @@ function NavBar() {
         >
           <li className="md:ml-8 md:mx-10 text-xl md:my-0 my-7 flex items-center">
             <a
-              href={"/chappiii.github.io"}
+              href={"/"}
               className="text-lime-600 hover:text-white duration-500 flex items-center gap-2"
             >
               <AiOutlineHome /> <span>Home</span>
@@ -50,7 +50,7 @@ function NavBar() {
 
           <li className="md:ml-8 md:mx-10 text-xl md:my-0 my-7 flex items-center">
             <a
-              href={"/chappiii.github.io/about"}
+              href={"/about"}
               className="text-lime-600 hover:text-white duration-500 flex items-center gap-2"
             >
               <AiOutlineUser /> <span>About</span>
@@ -59,7 +59,7 @@ function NavBar() {
 
           <li className="md:ml-8 md:mx-10 text-xl md:my-0 my-7 flex items-center">
             <a
-              href={"/chappiii.github.io/project"}
+              href={"/project"}
               className="text-lime-600 hover:text-white duration-500 flex items-center gap-2"
             >
               <AiOutlineFundProjectionScreen /> <span>Projects</span>
@@ -68,7 +68,7 @@ function NavBar() {
 
           <li className="md:ml-8 md:mx-10 text-xl md:my-0 my-7 flex items-center">
             <a
-              href={"/chappiii.github.io/resume"}
+              href={"/resume"}
               className="text-lime-600 hover:text-white duration-500 flex items-center gap-2"
             >
               <CgFileDocument /> <span>Resume</span>

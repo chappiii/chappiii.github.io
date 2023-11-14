@@ -34,11 +34,11 @@ function App() {
       >
         <Navbar />
         <Routes>
-          <Route path="/chappiii.github.io" element={<Home />} />
-          <Route path="/chappiii.github.io/project" element={<Projects />} />
-          <Route path="/chappiii.github.io/about" element={<About />} />
-          <Route path="/chappiii.github.io/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/chappiii.github.io" />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/project" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </div>

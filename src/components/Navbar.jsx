@@ -41,7 +41,7 @@ function NavBar() {
         >
           <li className="md:ml-8 md:mx-10 text-xl md:my-0 my-7 flex items-center">
             <a
-              href={"/"}
+              href={"/chappiii.github.io/"}
               className="text-lime-600 hover:text-white duration-500 flex items-center gap-2"
             >
               <AiOutlineHome /> <span>Home</span>
@@ -50,7 +50,7 @@ function NavBar() {
 
           <li className="md:ml-8 md:mx-10 text-xl md:my-0 my-7 flex items-center">
             <a
-              href={"/about"}
+              href={"/chappiii.github.io/about"}
               className="text-lime-600 hover:text-white duration-500 flex items-center gap-2"
             >
               <AiOutlineUser /> <span>About</span>
@@ -59,7 +59,7 @@ function NavBar() {
 
           <li className="md:ml-8 md:mx-10 text-xl md:my-0 my-7 flex items-center">
             <a
-              href={"/project"}
+              href={"/chappiii.github.io/project"}
               className="text-lime-600 hover:text-white duration-500 flex items-center gap-2"
             >
               <AiOutlineFundProjectionScreen /> <span>Projects</span>
@@ -68,7 +68,7 @@ function NavBar() {
 
           <li className="md:ml-8 md:mx-10 text-xl md:my-0 my-7 flex items-center">
             <a
-              href={"/resume"}
+              href={"/chappiii.github.io/resume"}
               className="text-lime-600 hover:text-white duration-500 flex items-center gap-2"
             >
               <CgFileDocument /> <span>Resume</span>

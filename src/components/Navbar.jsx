@@ -41,6 +41,7 @@ function NavBar() {
         >
           <li className="md:ml-8 md:mx-10 text-xl md:my-0 my-7 flex items-center">
             <a
+              onClick={() => setOpen(!open)}
               href={"#/"}
               className="text-lime-600 hover:text-white duration-500 flex items-center gap-2"
             >
@@ -50,6 +51,7 @@ function NavBar() {
 
           <li className="md:ml-8 md:mx-10 text-xl md:my-0 my-7 flex items-center">
             <a
+              onClick={() => setOpen(!open)}
               href={"#/about"}
               className="text-lime-600 hover:text-white duration-500 flex items-center gap-2"
             >
@@ -59,6 +61,7 @@ function NavBar() {
 
           <li className="md:ml-8 md:mx-10 text-xl md:my-0 my-7 flex items-center">
             <a
+              onClick={() => setOpen(!open)}
               href={"#/project"}
               className="text-lime-600 hover:text-white duration-500 flex items-center gap-2"
             >
@@ -68,6 +71,7 @@ function NavBar() {
 
           <li className="md:ml-8 md:mx-10 text-xl md:my-0 my-7 flex items-center">
             <a
+              onClick={() => setOpen(!open)}
               href={"#/resume"}
               className="text-lime-600 hover:text-white duration-500 flex items-center gap-2"
             >

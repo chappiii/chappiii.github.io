@@ -1,10 +1,7 @@
 import { useMediaQuery } from "react-responsive";
-import me from "../../assets/me.jpg";
-import me2 from "../../assets/me2.jpg";
 import Techstack from "./techstack";
 import Toolstack from "./toolstack";
 import Github from "./github";
-import { ImPointRight } from "react-icons/im";
 
 function About() {
   const isDesktopOrLaptop = useMediaQuery({
@@ -23,8 +20,10 @@ function About() {
                 <p className="text-white text-2xl mb-5 mx-10 text-justify">
                   Hello there <span className="text-lime-600">Kidus</span>
                   here. Born in Addis Ababa and raised in Dire Dawa, Ethiopia.
-                  I'm an Electrical and computer engineering senior year student
-                  at Mekelle/Dire Dawa University. <br />
+                  I'm a fresh graduate in Electrical and Computer Engineering
+                  from Mekelle/Dire Dawa University who is in love with
+                  programming and problem-solving.
+                  <br />
                   <br />
                   Apart from coding, what do I enjoy?
                   <br /> <br /> 👉🏾 Playing basketball
@@ -53,9 +52,10 @@ function About() {
           </h1>
           <p className="text-white text-2xl mb-10 mx-12 text-left">
             Hello there <span className="text-lime-600">Kidus</span> here. Born
-            in Addis Ababa and raised in Dire Dawa, Ethiopia. I'm an Electrical
-            and computer engineering senior year student at Mekelle/Dire Dawa
-            University. <br />
+            in Addis Ababa and raised in Dire Dawa, Ethiopia. I'm a fresh
+            graduate in Electrical and Computer Engineering from Mekelle/Dire
+            Dawa University who is in love with programming and problem-solving.{" "}
+            <br />
             <br />
             Apart from coding, what do I enjoy?
             <br /> <br /> 👉🏾 Playing basketball

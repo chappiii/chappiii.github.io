@@ -1,8 +1,8 @@
-import { Document, Page, pdfjs } from "react-pdf";
-import pdf from "../../assets/Kidus Mikael Birhanu.pdf";
+// import { Document, Page, pdfjs } from "react-pdf";
+// import pdf from "../../assets/Kidus Mikael Birhanu.pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import Button from "react-bootstrap/Button";
-import { useEffect } from "react";
+// import Button from "react-bootstrap/Button";
+// import { useEffect } from "react";
 
 function Resume() {
   // useEffect(() => {

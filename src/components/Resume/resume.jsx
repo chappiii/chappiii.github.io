@@ -28,7 +28,7 @@ function ResumeNew() {
             className="btn-primary inline-flex items-center px-6 py-2 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
           >
             <AiOutlineDownload className="" />
-            Download CV
+            Download Resume
           </a>
         </div>
 

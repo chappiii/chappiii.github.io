@@ -17,7 +17,7 @@ function ResumeNew() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-slate-950 flex flex-col items-center h-[50] justify-center pt-36">
+    <div className="min-h-screen bg-slate-950 flex flex-col items-center h-[50] justify-center pt-16">
       <div className="resume-section w-full max-w-4xl mx-auto shadow-lg p-8">
         <Particle />
         <div className="flex justify-center py-5">

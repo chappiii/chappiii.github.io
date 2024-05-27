@@ -19,7 +19,7 @@ function Footer() {
               >
                 <FaTelegram className="text-4xl" />
               </a>
-              <a href="https://www.linkedin.com/in/chapp%C3%AC-mikael-877b63235">
+              <a href="https://www.linkedin.com/in/kidus-mikael-877b63235/">
                 <FaLinkedin className="text-4xl" />
               </a>
               <a

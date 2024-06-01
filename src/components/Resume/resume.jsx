@@ -61,8 +61,8 @@ function ResumeNew() {
             rel="noopener noreferrer"
             className="btn-primary inline-flex items-center px-6 py-2 border border-transparent text-base font-medium rounded-md text-white bg-lime-700 hover:bg-lime-600"
           >
-            <AiOutlineDownload />
-            Download Resume
+            {/* <AiOutlineDownload />
+            Download Resume */}
           </a>
         </div>
       </div>

@@ -10,7 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 const resumeLink =
   "https://raw.githubusercontent.com/chappiii/chappiii.github.io/master/src/assets/Kidus%20Resume.pdf";
 
-function ResumeNew() {
+  function ResumeNew() {
   const [width, setWidth] = useState(1200);
   const [loading, setLoading] = useState(true);
 

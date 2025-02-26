@@ -54,17 +54,7 @@ const resumeLink =
             <AiOutlineLoading3Quarters className="animate-spin text-6xl text-lime-500" />
           </div>
         )}{" "}
-        <div className="flex justify-center py-5">
-          <a
-            href={pdf}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-primary inline-flex items-center px-6 py-2 border border-transparent text-base font-medium rounded-md text-white bg-lime-700 hover:bg-lime-600"
-          >
-            {/* <AiOutlineDownload />
-            Download Resume */}
-          </a>
-        </div>
+        
       </div>
     </div>
   );

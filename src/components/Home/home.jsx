@@ -45,7 +45,6 @@ function Home() {
                 My learning experience took a significant turn during my internship at NID, where I had the privilege of learning from some of the best in the field. I also gained hands-on experience in front-end development and strengthened my skills in React. <br />
                 <br />
                 Currently, I’m pursuing a Master’s in Computer Science, further deepening my knowledge in software development and Machine Learning, an area that excites me. Along the way, I’m also actively improving my problem-solving skills, sharpening my ability to tackle complex challenges efficiently.
-
 I’m eager to continue learning, exploring, and figuring out new things in the tech world. 🚀
               </p>
             </div>
@@ -74,20 +73,14 @@ I’m eager to continue learning, exploring, and figuring out new things in the 
               about me
             </h1>
             <p className="text-white text-xl mx-8 text-left">
-              I'm in love with the process of learning and figuring things out.
-              Tech enthusiast!!! <br />
+            I'm passionate about learning, problem-solving, and leveraging technology to create innovative solutions. Tech enthusiast! 🚀<br />
               <br />
-              I started my programming journey In my third year of studying
-              computer engineering with C++. Then continued to learn python
-              eventually As my interest in web development grew mastered
-              JavaScript. <br />
+              I started my programming journey in my third year of Computer Engineering, beginning with C. As I continued learning, I transitioned to Python and later mastered JavaScript as my interest in web development grew.  <br />
               <br />
-              My learning journey underwent a significant shift during my
-              internship at NID, where I had the privilege of learning from some
-              of the best in the field. <br />
+              My learning experience took a significant turn during my internship at NID, where I had the privilege of learning from some of the best in the field. I also gained hands-on experience in front-end development and strengthened my skills in React.  <br />
               <br />
-              I'm highly interested in Machine Learning and Computer vision.
-              Want to continue my learning journey and figure more things out
+              Currently, I’m pursuing a Master’s in Computer Science, further deepening my knowledge in software development and Machine Learning, an area that excites me. Along the way, I’m also actively improving my problem-solving skills, sharpening my ability to tackle complex challenges efficiently.
+I’m eager to continue learning, exploring, and figuring out new things in the tech world. 🚀
             </p>
           </div>
         </div>

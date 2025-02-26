@@ -47,17 +47,13 @@ function About() {
             A little about me <span className="text-lime-600">ME</span>
           </h1>
           <p className="text-white text-2xl mb-10 mx-12 text-left">
-            Hello there <span className="text-lime-600">Kidus</span> here. Born
-            in Addis Ababa and raised in Dire Dawa, Ethiopia. I'm a fresh
-            graduate in Electrical and Computer Engineering from Mekelle/Dire
-            Dawa University who is in love with programming and problem-solving.{" "}
+          Hello there! Kidus here. Born in Addis Ababa and raised in Dire Dawa, Ethiopia. I'm a Master’s student in Computer Science at BTH, a tech enthusiast, and a problem solver.{" "}
             <br />
             <br />
             Apart from coding, what do I enjoy?
             <br /> <br /> 👉🏾 Playing basketball
             <br />
-            👉🏾 gaming <br />
-            👉🏾 reading books <br /> 👉🏾 traveling
+            👉🏾 gaming <br /> 👉🏾 traveling
           </p>
           <h1 className="bg-slate-950 text-white text-3xl pb-5">
             Professional <span className="text-lime-600">Skillset</span>

@@ -42,7 +42,7 @@ function Projects() {
                     imgPath={gpt}
                     title="Exam Prep"
                     description="Ethiopian Exit Exam Prep with ChatGPT"
-                    demoLink="https://github.com/chappiii"
+                    demoLink="https://github.com/chappiii/EXIT-gpt"
                   />
                 </div>
 
@@ -90,7 +90,7 @@ function Projects() {
               imgPath={gpt}
               title="Exam Prep"
               description="Ethiopian Exit Exam Prep with ChatGPT"
-              demoLink="https://github.com/chappiii"
+              demoLink="https://github.com/chappiii/EXIT-gpt"
             />
           </div>
 

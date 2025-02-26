@@ -33,7 +33,7 @@ function Projects() {
                   <ProjectCards
                     imgPath={AZ}
                     title="Alzheimer’s Screening"
-                    description=" Comparative Analysis of Machine Learning Models for Alzheimer’s Diseas"
+                    description="Comparative Analysis of Machine Learning Models for Alzheimer’s Diseas"
                     demoLink="https://github.com/chappiii/Alzheimer-Disease-classification/blob/main/A%20Comparative%20Analysis%20of%20Machine%20Learning%20Models%20for%20Alzheimer%E2%80%99s%20Disease%20Screening.pdf"
                   />
                 </div>
@@ -81,7 +81,7 @@ function Projects() {
             <ProjectCards
               imgPath={AZ}
               title="Alzheimer’s Screening"
-              description="Alzheimer’s Screening"
+              description="Comparative Analysis of Machine Learning Models for Alzheimer’s Diseas"
               demoLink="https://github.com/chappiii/Alzheimer-Disease-classification/blob/main/A%20Comparative%20Analysis%20of%20Machine%20Learning%20Models%20for%20Alzheimer%E2%80%99s%20Disease%20Screening.pdf"
             />
           </div>

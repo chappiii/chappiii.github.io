@@ -14,6 +14,10 @@ import {
   SiDocker,
   SiDjango,
   SiVite,
+  SiTypescript,
+  SiGithub,
+  SiTailwindcss,
+  SiC 
 } from "react-icons/si";
 import { useMediaQuery } from "react-responsive";
 
@@ -31,37 +35,42 @@ function Techstack() {
               <DiJavascript1 className="text-7xl" />
             </div>
             <div className="m-2 p-4 border border-white rounded tech-icons">
-              <DiNodejs className="text-7xl" />
+              <DiPython className="text-7xl" />
             </div>
+
+            <div className="m-2 p-4 border border-white rounded tech-icons">
+              <SiTypescript className="text-7xl" />
+            </div>
+            <div className="m-2 p-4 border border-white rounded tech-icons">
+              <SiC className="text-7xl" />
+            </div>
+             
             <div className="m-2 p-4 border border-white rounded tech-icons">
               <DiReact className="text-7xl" />
             </div>
+
             <div className="m-2 p-4 border border-white rounded tech-icons">
-              <SiVuedotjs className="text-7xl" />
+              <SiTailwindcss className="text-7xl" />
             </div>
-            <div className="m-2 p-4 border border-white rounded tech-icons">
-              <SiFlutter className="text-7xl" />
-            </div>
+            
+            
             <div className="m-2 p-4 border border-white rounded tech-icons">
               <DiGit className="text-7xl" />
             </div>
             <div className="m-2 p-4 border border-white rounded tech-icons">
-              <DiPython className="text-7xl" />
+              <SiGithub className="text-7xl" />
             </div>
-            <div className="m-2 p-4 border border-white rounded tech-icons">
-              <SiTensorflow className="text-7xl" />
-            </div>
+            
             <div className="m-2 p-4 border border-white rounded tech-icons">
               <DiMongodb className="text-7xl" />
             </div>
             <div className="m-2 p-4 border border-white rounded tech-icons">
               <SiMysql className="text-7xl" />
             </div>
+            
+            
             <div className="col-span-5 flex justify-center">
-              <div className="m-2 p-4 border border-white rounded tech-icons">
-                <SiDjango className="text-7xl" />
-              </div>
-              <div className="m-2 p-4 border border-white rounded tech-icons">
+            <div className="m-2 p-4 border border-white rounded tech-icons">
                 <SiVite className="text-7xl" />
               </div>
               <div className="m-2 p-4 border border-white rounded tech-icons">
@@ -77,42 +86,44 @@ function Techstack() {
               <DiJavascript1 className="text-7xl" />
             </div>
             <div className=" p-4 border border-white rounded tech-icons">
-              <DiNodejs className="text-7xl" />
+              <DiPython className="text-7xl" />
             </div>
+            <div className=" p-4 border border-white rounded tech-icons">
+              <SiTypescript className="text-7xl" />
+            </div>
+
+            <div className=" p-4 border border-white rounded tech-icons">
+              <SiC className="text-7xl" />
+            </div>
+            
             <div className=" p-4 border border-white rounded tech-icons">
               <DiReact className="text-7xl" />
             </div>
             <div className=" p-4 border border-white rounded tech-icons">
-              <SiVuedotjs className="text-7xl" />
+              <SiTailwindcss className="text-7xl" />
             </div>
-            <div className=" p-4 border border-white rounded tech-icons">
-              <SiFlutter className="text-7xl" />
-            </div>
+            
+            
             <div className=" p-4 border border-white rounded tech-icons">
               <DiGit className="text-7xl" />
             </div>
             <div className=" p-4 border border-white rounded tech-icons">
-              <DiPython className="text-7xl" />
+              <SiGithub className="text-7xl" />
             </div>
-            <div className=" p-4 border border-white rounded tech-icons">
-              <SiTensorflow className="text-7xl" />
-            </div>
+            
             <div className=" p-4 border border-white rounded tech-icons">
               <DiMongodb className="text-7xl" />
             </div>
             <div className=" p-4 border border-white rounded tech-icons">
               <SiMysql className="text-7xl" />
             </div>
-            <div className=" p-4 border border-white rounded tech-icons">
-              <SiDjango className="text-7xl" />
-            </div>
+            
             <div className=" p-4 border border-white rounded tech-icons">
               <SiVite className="text-7xl" />
             </div>
-            <div className="col-span-2 flex justify-center">
+            
               <div className=" p-4 border border-white rounded tech-icons">
                 <SiDocker className="text-7xl" />
-              </div>
             </div>
           </div>
         </div>

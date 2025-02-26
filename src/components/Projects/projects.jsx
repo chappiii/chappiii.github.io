@@ -1,8 +1,10 @@
 import { useMediaQuery } from "react-responsive";
-import axum from "../../assets/axum.png";
 import scanner from "../../assets/scanner.png";
 import exit from "../../assets/exitprep.png";
 import gpt from "../../assets/gpt api.png";
+import kmean from "../../assets/k-mean.jpg"
+import spam from "../../assets/spam.png"
+import AZ from "../../assets/AZ.webp"
 import ProjectCards from "./projectcards";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
@@ -24,61 +26,44 @@ function Projects() {
               </h1>
               <p>Here are a few projects I have worked on recently.</p>
             </div>
+
             <div className="flex items-center justify-center">
               <div className="grid grid-cols-3 gap-6">
                 <div className="mb-4">
                   <ProjectCards
-                    imgPath={axum}
-                    title="Axum"
-                    description="movie streaming webapp"
-                    demoLink="https://github.com/chappiii/semister-project"
+                    imgPath={AZ}
+                    title="Alzheimer’s Screening"
+                    description=" Comparative Analysis of Machine Learning Models for Alzheimer’s Diseas"
+                    demoLink="https://github.com/chappiii/Alzheimer-Disease-classification/blob/main/A%20Comparative%20Analysis%20of%20Machine%20Learning%20Models%20for%20Alzheimer%E2%80%99s%20Disease%20Screening.pdf"
                   />
                 </div>
-
                 <div className="mb-4">
                   <ProjectCards
                     imgPath={gpt}
-                    title="chat bot"
-                    description="chat bot using chatgpt api"
+                    title="Exam Prep"
+                    description="Ethiopian Exit Exam Prep with ChatGPT"
                     demoLink="https://github.com/chappiii"
                   />
                 </div>
 
                 <div className="">
                   <ProjectCards
-                    imgPath={exit}
-                    title="exit"
-                    description="ethiopian exit exam preparation web app using MERN"
-                    demoLink="https://github.com/chappiii"
+                    imgPath={spam}
+                    title="Spam Detection"
+                    description="Experimental Comparison of Learning Algorithms for Spam Detection"
+                    demoLink="https://github.com/chappiii/Experimental-Comparison-of-Learning-Algorithms-for-Spam-Detection/blob/new/Experimental_Comparison_of_Learning_Algorithms_for_Spam_Detection.pdf"
                   />
                 </div>
 
                 <div className=" col-span-3 justify-center flex">
-                  <div className="">
-                    <Card className="h-[600px] w-[300px] text-white hover:scale-110 transition-transform duration-300 rounded overflow-hidden shadow-lg border border-lime-600 bg-slate-950">
-                      <Card.Img
-                        src={scanner}
-                        alt="card-img"
-                        className="w-64 object-cover object-center mx-5 my-4"
-                      />
-                      <Card.Body className="mb-6">
-                        <Card.Title className="font-bold text-xl mb-2">
-                          v25 qrcode scanner
-                        </Card.Title>
-                        <Card.Text className="mb-6 mx-2">
-                          flutter mobile app to scane qrcode version 25
-                        </Card.Text>
-                        <Button
-                          href={"https://github.com/chappiii"}
-                          target="_blank"
-                          className="bg-slate-900 hover:bg-lime-700 text-white font-bold py-2 px-4 rounded inline-flex items-center"
-                        >
-                          <BsBoxArrowUpRight className="mr-2" />
-                          Preview
-                        </Button>
-                      </Card.Body>
-                    </Card>
-                  </div>
+                <div className="">
+                  <ProjectCards
+                    imgPath={kmean}
+                    title="k-means Clustering"
+                    description="K-Means Clustering Implementation in C"
+                    demoLink="https://github.com/chappiii/Experimental-Comparison-of-Learning-Algorithms-for-Spam-Detection/blob/new/Experimental_Comparison_of_Learning_Algorithms_for_Spam_Detection.pdf"
+                  />
+                </div>
                 </div>
               </div>
             </div>
@@ -94,54 +79,37 @@ function Projects() {
           </div>
           <div className="flex mb-10 justify-center mx-auto">
             <ProjectCards
-              imgPath={axum}
-              title="Axum"
-              description="movie streaming webapp"
-              demoLink="https://github.com/chappiii/semister-project"
+              imgPath={AZ}
+              title="Alzheimer’s Screening"
+              description="Alzheimer’s Screening"
+              demoLink="https://github.com/chappiii/Alzheimer-Disease-classification/blob/main/A%20Comparative%20Analysis%20of%20Machine%20Learning%20Models%20for%20Alzheimer%E2%80%99s%20Disease%20Screening.pdf"
             />
           </div>
           <div className="flex mb-10 justify-center mx-auto">
             <ProjectCards
               imgPath={gpt}
-              title="chat bot"
-              description="chat bot using chatgpt api"
+              title="Exam Prep"
+              description="Ethiopian Exit Exam Prep with ChatGPT"
               demoLink="https://github.com/chappiii"
             />
           </div>
 
           <div className="flex mb-10 justify-center mx-auto">
             <ProjectCards
-              imgPath={exit}
-              title="exit"
-              description="ethiopian exit exam preparation web app using MERN"
-              demoLink="https://github.com/chappiii"
+              imgPath={spam}
+              title="Spam Detection"
+              description="Experimental Comparison of Learning Algorithms for Spam Detection"
+              demoLink="https://github.com/chappiii/Experimental-Comparison-of-Learning-Algorithms-for-Spam-Detection/blob/new/Experimental_Comparison_of_Learning_Algorithms_for_Spam_Detection.pdf"
             />
           </div>
 
           <div className="flex mb-10 justify-center mx-auto">
-            <Card className="h-[600px] w-[300px] text-white hover:scale-110 transition-transform duration-300 rounded overflow-hidden shadow-lg border border-lime-600 bg-slate-950">
-              <Card.Img
-                src={scanner}
-                alt="card-img"
-                className="w-64 object-cover object-center mx-5 my-4"
-              />
-              <Card.Body className="mb-6">
-                <Card.Title className="font-bold text-xl mb-2">
-                  v25 qrcode scanner
-                </Card.Title>
-                <Card.Text className="mb-6 mx-2">
-                  flutter mobile app to scane qrcode version 25
-                </Card.Text>
-                <Button
-                  href={"https://github.com/chappiii"}
-                  target="_blank"
-                  className="bg-slate-900 hover:bg-lime-700 text-white font-bold py-2 px-4 rounded inline-flex items-center"
-                >
-                  <BsBoxArrowUpRight className="mr-2" />
-                  Preview
-                </Button>
-              </Card.Body>
-            </Card>
+           <ProjectCards
+              imgPath={kmean}
+              title="k-means Clustering"
+              description="K-Means Clustering Implementation in C"
+              demoLink="https://github.com/chappiii/Experimental-Comparison-of-Learning-Algorithms-for-Spam-Detection/blob/new/Experimental_Comparison_of_Learning_Algorithms_for_Spam_Detection.pdf"
+            />
           </div>
         </>
       )}

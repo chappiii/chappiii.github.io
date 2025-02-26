@@ -10,7 +10,7 @@ function Footer() {
       {isDesktopOrLaptop ? (
         <footer className="bg-slate-950 text-3xl text-lime-600 py-4 text-center">
           <div className="container mx-auto flex flex-col items-center justify-center">
-            <p className="mb-4">Copyright &copy; 2024 Kidus Mikael</p>
+            <p className="mb-4">Copyright &copy; 2025 Kidus Mikael</p>
             <div className="inline-flex space-x-4">
               <a
                 href="https://t.me/Chappi_mikael"
@@ -35,7 +35,7 @@ function Footer() {
       ) : (
         <footer className="bg-slate-950 text-lime-600 py-4 text-center">
           <div className="container mx-auto flex flex-col items-center justify-center">
-            <p className="mb-4">Copyright &copy; 2024 Kidus Mikael</p>
+            <p className="mb-4">Copyright &copy; 2025 Kidus Mikael</p>
             <div className="inline-flex space-x-4">
               <a href="https://t.me/Chappi_mikael">
                 <FaTelegram className="text-3xl" />

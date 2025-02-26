@@ -3,6 +3,7 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiWindows11,
+  SiJupyter
 } from "react-icons/si";
 import { useMediaQuery } from "react-responsive";
 
@@ -27,6 +28,9 @@ function Toolstack() {
           <div className="p-4 mx-4 px-5 border border-white rounded tech-icons">
             <SiWindows11 className="text-7xl" />
           </div>
+          <div className="p-4 mx-4 px-5 border border-white rounded tech-icons">
+            <SiJupyter className="text-7xl" />
+        </div>
         </div>
       ) : (
         <div className="flex bg-slate-950 text-white justify-center flex-wrap pb-12">
@@ -42,6 +46,11 @@ function Toolstack() {
             </div>
             <div className="p-4 mx-1 px-5 border border-white rounded tech-icons">
               <SiWindows11 className="text-7xl" />
+            </div>
+            <div className="col-span-2 flex justify-center">
+              <div className="p-4 mx-4 px-5 border border-white rounded tech-icons">
+                <SiJupyter className="text-7xl" />
+              </div>
             </div>
           </div>
         </div>
